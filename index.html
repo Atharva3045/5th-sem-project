@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#fcf8f5">
+    <meta name="description"
+        content="Vyana Care: a Hindi-first maternal care web prototype for rural India. Explore the project and a private, in-tab symptom demonstration.">
+    <title>Vyana Care — Care that feels closer</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+</head>
+
+<body>
+<a class="skip-link" href="#main" data-hi="मुख्य सामग्री पर जाएँ">Skip to content</a>
+    <div class="prototype-bar"><span class="small-dot"></span><span
+            data-hi="विकास के पहले सप्ताह का प्रोटोटाइप · अभी लाइव स्वास्थ्य सेवा नहीं">Week 1 development prototype ·
+            Not a live healthcare service</span></div>
+    <header class="site-header container">
+        <a class="brand" href="#home" aria-label="Vyana Care home"><span class="brand-icon"><span class="icon" aria-hidden="true">&#10047;</span></span><span>vyana<span class="brand-care">care</span><small data-hi="हर माँ के साथ">WITH EVERY
+                    MOTHER</small></span></a>
+        <nav aria-label="Main navigation">
+            <a href="#support" data-hi="हमारी पहल">Our approach</a>
+            <a href="#guidance" data-hi="जानकारी">Care guide</a>
+            <a href="#asha" data-hi="आशा कार्यकर्ता">For ASHA workers</a>
+        </nav>
+        <div class="header-actions"><button class="language-button" id="language-toggle" type="button"
+                aria-label="Switch to Hindi"><span aria-hidden="true">अ / A</span><span
+                    id="language-label">हिन्दी</span></button><a class="help-button" href="#emergency"><span class="icon" aria-hidden="true">&#9742;</span><span data-hi="ज़रूरी मदद">Urgent help</span></a></div>
+    </header>
+
+    <main id="main">
+        <section class="hero container" id="home" aria-labelledby="hero-title">
+            <div class="hero-copy">
+                <div class="eyebrow"><span class="small-dot"></span><span data-hi="आपकी भाषा में। आपके साथ।">In your
+                        language. By your side.</span></div>
+                <h1 id="hero-title"><span data-hi="थोड़ी सी देखभाल।">A little care.</span><br><em
+                        data-hi="एक बेहतर कल।">A stronger tomorrow.</em></h1>
+                <p class="hero-description"
+                    data-hi="गर्भावस्था के हर कदम पर साथ देने की एक पहल। ग्रामीण भारत के लिए सरल जानकारी, हिंदी में सहायता और आशा कार्यकर्ताओं से जुड़ाव की ओर।">
+                    A little support for every step of pregnancy. Building simpler guidance, Hindi-first access, and
+                    closer connections with ASHA workers in rural India.</p>
+                <div class="hero-actions"><a class="button button-primary" href="#report"><span class="icon" aria-hidden="true">&#9829;</span><span data-hi="लक्षण बताने का डेमो">Try the symptom demo</span><span class="icon" aria-hidden="true">&#8594;</span></a><a class="text-link" href="#guidance"><span data-hi="जानकारी देखें">Explore the care
+                            guide</span><span aria-hidden="true">↗</span></a></div>
+                <div class="hero-values"><span><span class="icon" aria-hidden="true">&#10003;</span><span data-hi="सुरक्षा को प्राथमिकता">Safety comes first</span></span><span><span class="icon" aria-hidden="true">&#9829;</span><span data-hi="हर माँ के लिए बनाया गया">Designed around mothers</span></span></div>
+            </div>
+            <div class="hero-visual">
+                <div class="illustration-stage">
+                    <span class="illustration-top" data-hi="देखभाल, जो पास लगे।">CARE THAT FEELS CLOSER</span>
+                    <!-- Basic HTML and CSS panel with a Unicode mother-and-baby symbol. -->
+                    <div class="mother-illustration">
+                        <span class="mother-symbol" role="img" aria-label="Mother holding a baby">&#129329;</span>
+                        <h2 data-hi="हर माँ के साथ">With every mother</h2>
+                        <p data-hi="देखभाल, प्यार और साथ">Care, love and support</p>
+                    </div>
+                    <div class="care-note"><span class="note-icon"><span class="icon" aria-hidden="true">&#9829;</span></span>
+                        <div><strong data-hi="आप अकेली नहीं हैं।">You don’t have to do it alone.</strong><span
+                                data-hi="हर छोटे कदम पर, साथ।">One small step. A little more support.</span></div>
+                    </div>
+                </div>
+                <div class="language-note"><span aria-hidden="true">नमस्ते</span>
+                    <div><strong data-hi="पहले आपकी भाषा">Your language comes first</strong>
+                        <p data-hi="हिंदी और English में इंटरफ़ेस">Interface in Hindi & English</p>
+                    </div><span class="language-note-check" aria-hidden="true">✓</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="care-strip container" aria-label="Project principles">
+            <div><span class="strip-number">01</span><span data-hi="सरल और सुलभ">Simple & accessible</span></div>
+            <div><span class="strip-number">02</span><span data-hi="ग्रामीण भारत के लिए">Built for rural India</span>
+            </div>
+            <div><span class="strip-number">03</span><span data-hi="आपकी निजता का सम्मान">Respect for your
+                    privacy</span></div>
+            <div><span class="strip-number">04</span><span data-hi="स्वास्थ्यकर्मियों से जुड़ाव की ओर">Connecting care,
+                    thoughtfully</span></div>
+        </section>
+
+        <section class="section container" id="support" aria-labelledby="support-title">
+            <div class="section-heading">
+                <div>
+                    <p class="eyebrow" data-hi="हम क्यों बना रहे हैं">A little closer to care</p>
+                    <h2 id="support-title" data-hi="आपकी ज़रूरतों से शुरू होती है देखभाल।">Care starts with
+                        understanding you.</h2>
+                </div>
+                <p
+                    data-hi="कम कनेक्टिविटी, भाषा की बाधाएँ और दूर स्वास्थ्य सेवाएँ। व्याना के हर कदम की शुरुआत इन्हीं चुनौतियों से है।">
+                    Limited connectivity, language barriers, distant services. These are the everyday realities shaping
+                    Vyana.</p>
+            </div>
+            <div class="feature-grid">
+                <article class="feature-card"><span class="feature-icon rose"><span class="icon" aria-hidden="true">&#9829;</span></span><span class="badge badge-current" data-hi="इस डेमो में">In this demo</span>
+                    <h3 data-hi="अपने लक्षण बताएँ">A simpler way to share</h3>
+                    <p data-hi="कुछ विकल्प चुनकर लक्षण बताने का इंटरफ़ेस आज़माएँ। कोई रिकॉर्ड भेजा नहीं जाता।">Explore a
+                        simple symptom-selection interface. No report is sent to anyone.</p><a href="#report"
+                        class="card-link"><span data-hi="डेमो देखें">Explore the demo</span><span
+                            aria-hidden="true">↗</span></a>
+                </article>
+                <article class="feature-card"><span class="feature-icon sage"><span class="icon" aria-hidden="true">&#127908;</span></span><span class="badge" data-hi="चरण 2 · प्रस्तावित">Phase 2 · Planned</span>
+                    <h3 data-hi="बोलकर, अपनी भाषा में">A voice that understands</h3>
+                    <p data-hi="हिंदी और समर्थित भाषाओं में बोलकर सहायता लेने की सुविधा बनाने की योजना है।">Voice
+                        interaction in Hindi and supported languages is part of our next phase.</p><a href="#roadmap"
+                        class="card-link"><span data-hi="आगे की योजना">See what’s next</span><span
+                            aria-hidden="true">↗</span></a>
+                </article>
+                <article class="feature-card"><span class="feature-icon peach"><span class="icon" aria-hidden="true">&#8595;</span></span><span class="badge" data-hi="चरण 2 · प्रस्तावित">Phase 2 · Planned</span>
+                    <h3 data-hi="कम इंटरनेट में भी जानकारी">Guidance beyond a signal</h3>
+                    <p
+                        data-hi="पहले डाउनलोड की गई जानकारी ऑफ़लाइन पढ़ने की योजना है। इस डेमो में ऑफ़लाइन डाउनलोड उपलब्ध नहीं हैं।">
+                        Previously downloaded guidance is planned for offline use. Offline downloads are not available
+                        in this demo.</p><a href="#roadmap" class="card-link"><span data-hi="ऑफ़लाइन योजना">Explore the
+                            roadmap</span><span aria-hidden="true">↗</span></a>
+                </article>
+            </div>
+        </section>
+
+        <section class="guide-section" id="guidance" aria-labelledby="guide-title">
+            <div class="container guide-layout">
+                <div class="guide-intro">
+                    <p class="eyebrow" data-hi="एक बेहतर शुरुआत">Small steps, thoughtful care</p>
+                    <h2 id="guide-title" data-hi="जानकारी, जो समझ आए।">A little clarity goes a long way.</h2>
+                    <p
+                        data-hi="यह शुरुआती जानकारी है। स्वास्थ्य संबंधी निर्णय के लिए अपने डॉक्टर या स्वास्थ्यकर्मी से बात करें।">
+                        This is introductory information. Speak with a qualified healthcare professional about your
+                        care.</p><span class="review-note"><span class="icon" aria-hidden="true">&#128214;</span><span data-hi="पूर्ण सामग्री की चिकित्सकीय समीक्षा अभी बाकी है">Full clinical content
+                            review is still pending</span></span>
+                </div>
+                <div class="guide-accordions">
+                    <details open>
+                        <summary><span data-hi="व्याना के साथ शुरुआत कैसे करें?">How do I get started?</span><span
+                                class="expand-icon" aria-hidden="true">+</span></summary>
+                        <p
+                            data-hi="अपनी भाषा चुनें, इस पेज की जानकारी पढ़ें और नीचे लक्षण बताने का डेमो आज़माएँ। अभी खाता बनाने की ज़रूरत नहीं है।">
+                            Choose a language, explore this page, and try the symptom demo below. You don’t need an
+                            account.</p>
+                    </details>
+                    <details>
+                        <summary><span data-hi="किन संकेतों पर तुरंत चिकित्सा सहायता लें?">Which signs need immediate
+                                medical attention?</span><span class="expand-icon" aria-hidden="true">+</span></summary>
+                        <p
+                            data-hi="गर्भावस्था में रक्तस्राव, तेज़ पेट दर्द या तेज़ सिरदर्द जैसे संकेतों पर तुरंत चिकित्सा सहायता लें। यह पूरी सूची नहीं है। डेमो के उत्तर का इंतज़ार न करें।">
+                            Seek immediate medical care for warning signs such as bleeding, severe abdominal pain, or
+                            severe headache during pregnancy. This is not a complete list. Do not wait for a demo
+                            response.</p><a class="text-link" href="#emergency" data-hi="मदद के विकल्प देखें">See help
+                            options</a>
+                    </details>
+                    <details>
+                        <summary><span data-hi="क्या व्याना डॉक्टर की जगह ले सकता है?">Does Vyana replace a
+                                doctor?</span><span class="expand-icon" aria-hidden="true">+</span></summary>
+                        <p
+                            data-hi="नहीं। यह सहायता देने के उद्देश्य से बनाया जा रहा प्रोटोटाइप है। यह निदान, उपचार या आपातकालीन सेवा नहीं देता।">
+                            No. This is a support-tool prototype. It does not provide a diagnosis, treatment, or
+                            emergency dispatch.</p>
+                    </details>
+                    <details>
+                        <summary><span data-hi="क्या यह अभी ऑफ़लाइन काम करता है?">Can I use this offline
+                                today?</span><span class="expand-icon" aria-hidden="true">+</span></summary>
+                        <p
+                            data-hi="इस संस्करण में ऑफ़लाइन डाउनलोड और सिंक उपलब्ध नहीं हैं। आगे पहले से डाउनलोड की गई जानकारी को ऑफ़लाइन उपलब्ध कराने की योजना है। बिना नेटवर्क के कॉल या अलर्ट पहुँचने की गारंटी नहीं है।">
+                            Offline downloads and synchronization are not implemented in this version. Saved guidance is
+                            planned for a later phase. Calls and alerts cannot be assumed to work without connectivity.
+                        </p>
+                    </details>
+                </div>
+            </div>
+        </section>
+
+        <section class="section container report-section" id="report" aria-labelledby="report-title">
+            <div class="report-intro">
+                <p class="eyebrow" data-hi="लक्षण बताने का शुरुआती डेमो">A first step toward easier reporting</p>
+                <h2 id="report-title" data-hi="आप कैसा महसूस कर रही हैं?">How are you feeling?</h2>
+                <p
+                    data-hi="यह केवल इंटरफ़ेस का डेमो है। असली आपातस्थिति में इसे भरने के बजाय तुरंत चिकित्सा सहायता लें।">
+                    This is an interface demonstration. In a real emergency, seek medical help immediately instead of
+                    completing this form.</p>
+                <div class="privacy-note"><span class="icon" aria-hidden="true">&#10003;</span>
+                    <p
+                        data-hi="नाम या फ़ोन नंबर नहीं लिया जाता। आपके विकल्प केवल इस टैब में रहते हैं; वे सेव या भेजे नहीं जाते।">
+                        No name or phone number is collected. Your selections stay in this tab and are not saved or
+                        sent.</p>
+                </div>
+            </div>
+            <form class="symptom-form" id="symptom-form"><span class="badge badge-current"
+                    data-hi="प्रोटोटाइप · चिकित्सकीय समीक्षा बाकी">Prototype · Clinical review pending</span>
+                <fieldset>
+                    <legend data-hi="कोई विकल्प चुनें (एक से अधिक भी चुन सकती हैं)">Select any that apply (you can
+                        choose more than one)</legend>
+                    <label class="symptom-option"><input type="checkbox" name="symptom" value="bleeding"><span
+                            data-hi="गर्भावस्था में रक्तस्राव">Bleeding during pregnancy</span></label>
+                    <label class="symptom-option"><input type="checkbox" name="symptom" value="pain"><span
+                            data-hi="तेज़ पेट दर्द">Severe abdominal pain</span></label>
+                    <label class="symptom-option"><input type="checkbox" name="symptom" value="headache"><span
+                            data-hi="तेज़ सिरदर्द">Severe headache</span></label>
+                    <label class="symptom-option"><input type="checkbox" name="symptom" value="other"><span
+                            data-hi="कोई और परेशानी या सवाल">Another concern or question</span></label>
+                </fieldset>
+                <p class="form-note" data-hi="यह पूरी सूची नहीं है और इससे यह तय नहीं होता कि आप सुरक्षित हैं।">This
+                    list is not exhaustive and cannot establish whether you are safe.</p>
+                <div class="form-actions"><button class="button button-primary" type="submit"><span
+                            data-hi="डेमो उत्तर देखें">See demo response</span><span class="icon" aria-hidden="true">&#8594;</span></button><button class="reset-button" type="reset" data-hi="विकल्प हटाएँ">Clear
+                        selection</button></div><noscript>
+                    <p class="form-note">Enable JavaScript to use language switching and the symptom demo. For urgent
+                        concerns, seek medical care without waiting for this form.</p>
+                </noscript>
+                <div class="report-result" id="report-result" role="alert" tabindex="-1" hidden></div>
+            </form>
+        </section>
+
+        <section class="emergency-section container" id="emergency" aria-labelledby="emergency-title"><span
+                class="emergency-icon"><span class="icon" aria-hidden="true">&#9742;</span></span>
+            <div>
+                <p class="eyebrow" data-hi="असली आपातस्थिति में">For a real emergency</p>
+                <h2 id="emergency-title" data-hi="तुरंत चिकित्सा सहायता लें।">Please seek immediate medical help.</h2>
+                <p
+                    data-hi="भारत में आपातकालीन सहायता के लिए 112 डायल करें या नज़दीकी स्वास्थ्य केंद्र जाएँ। कॉल के लिए फ़ोन सेवा ज़रूरी है। यह वेबसाइट कोई अलर्ट नहीं भेजती और न ही मदद की पुष्टि करती है।">
+                    In India, dial 112 for emergency assistance or go to the nearest health facility. Calling requires
+                    phone service. This website does not send an alert or confirm that help is on its way.</p>
+            </div><a href="tel:112" class="button emergency-call"><span class="icon" aria-hidden="true">&#9742;</span><span data-hi="112 पर कॉल करें">Call 112</span></a>
+        </section>
+
+        <section class="section container asha-section" id="asha" aria-labelledby="asha-title">
+            <div class="asha-preview">
+                <div class="preview-header"><span class="feature-icon sage"><span class="icon" aria-hidden="true">&#128101;</span></span><span class="badge" data-hi="केवल नमूना · लाइव रिकॉर्ड नहीं">Sample only · No live
+                        records</span></div>
+                <h3 data-hi="आशा कार्यकर्ता की एक झलक">A glimpse of the ASHA workspace</h3>
+                <div class="sample-row"><span class="sample-avatar">A</span>
+                    <div><strong data-hi="नमूना रिपोर्ट A">Sample report A</strong><small
+                            data-hi="फ़ॉलो-अप की समीक्षा">Follow-up review</small></div><span class="sample-status"
+                        data-hi="नमूना">Sample</span>
+                </div>
+                <div class="sample-row"><span class="sample-avatar avatar-peach">B</span>
+                    <div><strong data-hi="नमूना रिपोर्ट B">Sample report B</strong><small
+                            data-hi="जानकारी का सवाल">Guidance question</small></div><span class="sample-status"
+                        data-hi="नमूना">Sample</span>
+                </div>
+                <p class="preview-footnote" data-hi="कोई कार्यकर्ता जुड़ा नहीं है। ये काल्पनिक पंक्तियाँ हैं।">No worker
+                    is connected. These rows are fictional examples.</p>
+            </div>
+            <div class="asha-copy">
+                <p class="eyebrow" data-hi="देखभाल करने वालों का भी साथ">Supporting those who care</p>
+                <h2 id="asha-title" data-hi="आशा कार्यकर्ता। देखभाल की अहम कड़ी।">Local care. A human connection.</h2>
+                <p
+                    data-hi="प्रस्तावित आशा व्यू कार्यकर्ताओं को रिपोर्ट देखने और फ़ॉलो-अप व्यवस्थित करने में मदद करेगा। असली रिकॉर्ड, सहमति आधारित अलर्ट और सुरक्षित एक्सेस अभी विकसित किए जाने हैं।">
+                    The planned ASHA view will help workers review reports and organize follow-ups. Real records,
+                    consent-based alerts, and secure access are still to be developed.</p><a href="#roadmap"
+                    class="text-link"><span data-hi="आगे की योजना देखें">Explore the development plan</span><span class="icon" aria-hidden="true">&#8594;</span></a>
+            </div>
+        </section>
+
+        <section class="roadmap-section" id="roadmap" aria-labelledby="roadmap-title">
+            <div class="container">
+                <div class="section-heading">
+                    <div>
+                        <p class="eyebrow" data-hi="सोच-समझकर, एक कदम आगे">Building with intention</p>
+                        <h2 id="roadmap-title" data-hi="एक छोटे कदम से शुरुआत।">A small start. A thoughtful path
+                            forward.</h2>
+                    </div>
+                    <p data-hi="आज एक लोकल प्रोटोटाइप। आगे हर कदम पर परीक्षण, निजता और चिकित्सकीय समीक्षा।">A local
+                        prototype today. Testing, privacy, and clinical review at every next step.</p>
+                </div>
+                <div class="roadmap-grid">
+                    <article><span class="phase-number">01</span><span class="badge badge-current"
+                            data-hi="अभी · शुरुआती वेब प्रोटोटाइप">Now · Early web prototype</span>
+                        <h3 data-hi="सरल शुरुआत">Start with the essentials</h3>
+                        <p
+                            data-hi="मोबाइल के अनुकूल पेज, हिंदी/English विकल्प और लक्षण बताने का डेमो। अगला कदम: बैकएंड और समीक्षा किए गए नियम।">
+                            Mobile-friendly pages, Hindi/English switching, and a symptom demo. Next: a backend and
+                            clinically reviewed rules.</p>
+                    </article>
+                    <article><span class="phase-number">02</span><span class="badge" data-hi="प्रस्तावित">Planned</span>
+                        <h3 data-hi="आवाज़ और ऑफ़लाइन सुविधा">Add voice & offline access</h3>
+                        <p
+                            data-hi="सुरक्षा जाँच के साथ AI सहायता, वॉइस इंटरैक्शन, PWA डाउनलोड और सहमति आधारित फ़ॉलो-अप।">
+                            Safeguarded AI assistance, voice interaction, PWA downloads, and consent-based follow-up
+                            workflows.</p>
+                    </article>
+                    <article><span class="phase-number">03</span><span class="badge" data-hi="भविष्य · अनुसंधान">Future
+                            · Research</span>
+                        <h3 data-hi="Android और नए विकल्प">Explore Android & beyond</h3>
+                        <p
+                            data-hi="नेटिव ऐप और सहमति वाले उपकरणों के बीच प्रयोगात्मक Bluetooth रिले। यह आपातकालीन सहायता पहुँचने की गारंटी नहीं है।">
+                            A native app and experimental Bluetooth relay between consenting devices. This is not a
+                            guaranteed emergency channel.</p>
+                    </article>
+                </div>
+                <p class="delivery-note"><span class="icon" aria-hidden="true">&#9888;</span><span
+                        data-hi="भविष्य के अलर्ट में ‘कतार में’, ‘पहुँचा’ और ‘मदद की पुष्टि’ की अलग स्थिति होगी। इस डेमो में इनमें से कोई डिलीवरी सुविधा लागू नहीं है।">Future
+                        alerts must distinguish queued, delivered, and help confirmed. None of these delivery features
+                        is implemented in this demo.</span></p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="container site-footer">
+        <div class="footer-top"><a class="brand" href="#home"><span class="brand-icon"><span class="icon" aria-hidden="true">&#10047;</span></span><span>vyana<span class="brand-care">care</span><small data-hi="हर माँ के साथ">WITH
+                        EVERY MOTHER</small></span></a>
+            <p data-hi="ग्रामीण भारत में मातृ स्वास्थ्य सहायता की ओर एक पहल।">A step toward more accessible maternal
+                support in rural India.</p><a class="text-link" href="#home"><span data-hi="ऊपर जाएँ">Back to
+                    top</span><span aria-hidden="true">↑</span></a>
+        </div>
+        <div class="footer-bottom">
+            <p data-hi="विकास का प्रोटोटाइप। डॉक्टर, निदान या आपातकालीन सेवाओं का विकल्प नहीं।">Development prototype.
+                Not a substitute for clinicians, diagnosis, or emergency services.</p>
+            <div class="source-links"><span data-hi="संदर्भ:">References:</span><a
+                    href="https://www.who.int/campaigns/world-health-day/2025/key-messages" target="_blank"
+                    rel="noopener noreferrer" data-hi="WHO चेतावनी संकेत ↗">WHO warning signs ↗</a><a
+                    href="https://112.gov.in/" target="_blank" rel="noopener noreferrer" data-hi="भारत 112 ↗">India 112
+                    ↗</a></div>
+        </div>
+    </footer>
+</body>
+
+</html>
