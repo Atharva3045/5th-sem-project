@@ -120,9 +120,7 @@ Development setup instructions will be added once the first working frontend and
 - [ ] Plan Android application
 - [ ] Research Bluetooth emergency relay
 
-## Inspiration and Attribution
 
-This is a **new build from scratch**, informed by an earlier Vyana Care project README shared for reference. The referenced project credits **Ayush Kumar Singh**. Its code, deployments, and completed-feature claims are **not** represented as part of this new repository.
 
 ## License
 
