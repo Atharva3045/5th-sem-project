@@ -1,4 +1,4 @@
-# 🌸 Vyana Care (व्यान केयर)
+# 🌸 Vyana Care 
 
 **A voice-first, offline-resilient maternal healthcare platform for rural India.**
 
